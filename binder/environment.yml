@@ -8,6 +8,8 @@ dependencies:
   - matplotlib
   - pandas
   - scikit-learn
-  - nbserverproxy
+  - tensorflow
+  - nbformat
   - pip:
     - kaggle==1.4.0
+    - keras
