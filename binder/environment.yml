@@ -1,0 +1,13 @@
+name: kaggle_gridsearch
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - nbserverproxy
+  - pip:
+    - kaggle==1.4.0
